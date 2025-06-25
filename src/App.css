@@ -1,0 +1,652 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:white;
+
+  ul{
+    list-style:none;
+  }
+}
+
+/* Navbar Css Start */
+
+.main_container{
+  width: 100%;
+  background-color: rgba(49, 48, 48, 0.5);
+  position: fixed;
+  top:0px;
+  left:0px;
+  z-index: 50;
+  
+}
+
+.main_nav{
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav_items{
+  display: flex;
+  gap: 30px;
+}
+.logo{
+  font-size: 28px;
+}
+/* Navbar Css end */
+
+
+/* Hero Css Start */
+
+.hero_container{
+  height:100vh;
+  width: 100%;
+  background-image: url("../src/Pictures/Hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display:flex;
+  align-items: end;
+  padding:20px;
+}
+
+.hero_text{
+  position:absolute;
+  top:180px;
+  left:150px;
+  font-size: 50px;
+  font-weight: 600;
+
+  ul{
+    list-style: none;
+  }
+
+  button{
+    height: 40px;
+    width: 110px;
+    color:black;
+    background-color:rgb(240, 209, 75);
+    border: none;
+    border-radius: 10px;
+    font-weight:bold;
+    cursor: pointer;
+  }
+
+  
+  button:hover {
+    background-color: rgb(182, 159, 66);
+  }
+}
+
+
+
+.hero_items{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  justify-content: center;
+  gap:30px;
+}
+
+.item{
+  background-color: rgba(49, 48, 48, 0.5);
+  height:150px;
+  border-radius: 10px;
+  padding:15px;
+  p{
+    font-size: 18px;
+  }
+}
+
+.icon{
+  width: 100%;
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+  gap:10px;
+  
+  p{
+    font-size: 60px;
+  }
+
+  h2{
+    font-size: 40px;
+  }
+}
+
+
+/* Hero Css end
+
+
+/* exercise css Start */
+
+.exercise_container{
+  width: 100%;
+  background-color: #141414;
+  color:white;
+
+  h1{
+    padding: 15px 0 0 30px ;
+    font-size: 40px;
+  }
+} 
+
+.gym_list{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  justify-content: center;
+  padding:20px;
+  gap:30px;
+}
+
+.gym_item{
+  height:400px;
+  background-color: rgba(49, 48, 48, 0.5);
+  border-radius: 20px;
+  padding:20px;
+  border-bottom: 1px solid white;
+
+
+  h3{
+    color:rgb(240, 209, 75);
+    font-size: 25px;
+    padding-left: 15px;
+  }
+
+  img{
+    height:80%;
+    width: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+}
+
+
+/* exercise css end */
+
+
+/* fitness css start */
+
+.main{
+  background-color: #141414;
+  color:white;
+  padding-bottom: 20px;
+  h1{
+    padding: 10px 0 0 20px;
+    font-size: 40px;
+  }
+}
+
+.fitness_container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  justify-content: center;
+  gap:30px;
+  padding:10px;
+  
+}
+
+.card{
+  background-color: rgba(49, 48, 48, 0.5);
+  padding:10px;
+  border-radius: 10px;
+  text-align: center;
+  height: 90px;
+  line-height: 35px;
+  border-bottom: 1px solid white;
+
+}
+
+/* fitness css end */
+
+
+/* Footer Css Start */
+
+.footer_container{
+  width: 100%;
+  height: 25vh;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  color:white;
+}
+
+.footer_logo{
+  text-align: center;
+  
+  h1{
+    font-size: 40px;
+  }
+}
+
+.footer_item, .footer_item {
+  padding: 10px;
+}
+
+/* Footer Css end */
+
+
+/* --------------------------------------------------- */
+
+/* Exercise Component Css Start */
+
+.exercise_component_container{
+  width: 100%;
+  background-color:#141414;
+  padding:25px;
+  padding-top: 70px;
+
+
+  h1{
+    font-size: 45px;
+    font-weight: 700;
+  }
+}
+
+.exercise_card_box{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 35px;
+  padding-top: 20px;
+  
+}
+
+
+.exercise_card{
+  background-color:  rgba(49, 48, 48, 0.5);
+  border-radius: 20px;
+  height: 350px;
+  
+
+
+  img{
+    height:75%;
+    width: 100%;
+    object-fit: cover;
+    padding:10px;
+    border-radius: 20px;
+  }
+}
+
+h2{
+  font-size: 25px;
+  font-weight: 600;
+  padding: 0 15px 0 15px;
+  
+} 
+
+p{
+  padding: 0 15px 15px 15px;
+  opacity: 0.7;
+}
+
+
+
+/* Exercise Details Card */
+
+.exercise_detail_card{
+  width: 100%;
+  height: 100vh;
+  padding:60px 0 60px 40px;
+  background-color: #141414;
+  display:flex;
+  gap:50px;
+
+  
+
+  img{
+    height:90vh;
+    width: 50%;
+    object-fit: cover;
+  }
+}
+
+.details{
+  
+  h1{
+    font-size: 60px;
+    padding-bottom: 5px;
+  }
+
+  h3{
+    font-size: 30px;
+    opacity: 0.7;
+    padding-bottom: 15px;
+  }
+
+}
+
+/* Exercise Component Css END */
+
+
+
+/* Fitness Component Css Start */
+
+/* Cardio Section */
+
+.cardio_container{
+  width: 100%;
+  padding: 80px;
+  background-color:#141414;
+}
+
+.cardio_card{
+  display: flex;
+  gap:25px;
+  padding-bottom: 40px;
+
+  img{
+    width:50% ;
+    border-radius: 10px;
+    padding-left: 20px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+  }
+  
+  h2{
+    font-size: 50px;
+  }
+  h4{
+    padding-left: 15px  ;
+    font-size: 25px;
+    padding-bottom: 25px;
+  }
+
+  p{
+    font-size: 20px;
+    
+  }
+}
+
+.cardio_details{
+  width: 50%;
+  padding-top: 5px;
+
+}
+
+
+.picture{
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+
+
+/* Fitness Component Css END */
+
+
+
+/* Body Transition Css Start */
+
+/* Container to center the form */
+.body_transition_container{
+  width: 100%;
+  height: 100vh;
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weight-form {
+  background-color: #1f1f1f;
+  padding: 40px;
+  border-radius: 15px;
+  width: 50%;
+}
+
+.weight-form h2 {
+  color: #ffd500;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.weight-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #f4f4f4;
+  font-size: 20px;
+}
+
+/* Input & Select styling */
+.weight-form input,
+.weight-form select {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ffd500;
+  border-radius: 8px;
+  background-color: #2b2b2b;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.weight-form input:focus,
+.weight-form select:focus {
+  outline: none;
+  border-color: #ffea00;
+  background-color: #333;
+}
+
+.weight-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffd500;
+  border: none;
+  border-radius: 8px;
+  color: #141414;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.weight-form button:hover {
+  background-color: #ffea00;
+}
+
+
+
+/* Body Transition Css End */
+
+/* Body Transition Details Css Start */
+
+.diet_plan{
+  width: 100%;
+  background-color: #141414;
+  display: flex;
+  padding: 80px 0 0 20px;
+  gap:40px;
+}
+
+
+.body_image img{
+    height: 85vh;
+    width: 50vw;
+    object-fit: cover;
+    border-radius: 10px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+
+
+.diet{
+  h3{
+    font-size: 32px;
+    padding-bottom: 10px;
+  }
+  h4{
+    font-size: 25px;
+  }
+  p{
+    font-size: 18px;
+  }
+}
+
+
+/* Body Transition DetailsCss End */
+
+
+
+/* BMI calculator Css start */
+.main_bmi{
+  background-color: #141414;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0 30px 0;
+}
+
+.bmi-container {
+  background-color: #1f1f1f;
+  padding: 40px;
+  border-radius: 15px;
+  width: 50%;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+}
+
+.bmi-container h2,
+.bmi-container h3 {
+  color: #ffea00;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.bmi-container form {
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.bmi-container input {
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ffd500;
+  border-radius: 8px;
+  background-color: #2b2b2b;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.bmi-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #ffd500;
+  border: none;
+  border-radius: 8px;
+  color: #141414;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.bmi-container button:hover {
+  background-color: #ccaf1e;
+}
+
+.result {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.history {
+  margin-top: 35px;
+}
+
+.history ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.history li {
+  background: #1f1f1f;
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+
+.clear-history-btn {
+  margin-top: 10px;
+  padding: 8px 14px;
+  background-color: crimson;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.clear-history-btn:hover {
+  background-color: darkred;
+}
+
+
+/* BMI calculator Css End */
+
+
+/* buy Protine Css Start */
+
+.protine_container{
+  width: 100%;
+  background-color: #141414;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap:30px;
+  padding: 80px 15px 0 15px;
+}
+
+.protine_card{
+  padding:5px 5px 10px 5px;
+  background-color: #1f1f1f;
+  border-radius: 20px;
+  line-height: 25px;
+
+  img{
+    height:300px;
+    width: 100%;
+    object-fit: center;
+    padding:10px;
+    border-radius: 20px;
+  }
+
+}
+
+.protine_detail{
+  height: 250px;                  
+  padding: 15px 0;
+
+  h3{
+    padding-left: 15px;
+  }
+
+  button{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    background-color:#ccaf1e;
+    border: none;
+    margin-left: 20px;
+
+    a{
+      text-decoration: none;
+      font-size: 15px;
+      color:black;
+      font-weight: 600;
+    }
+  }
+}
+
+
+/* buy Protine Css End */
