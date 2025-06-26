@@ -12,7 +12,7 @@ export const Exercise = ()=>{
 
 
     return (
-            <div className="exercise_container">
+            <div className="exercise_container" id="exercise">
                 <h1>EXERCISE</h1>
                 <div className="gym_list">
                 

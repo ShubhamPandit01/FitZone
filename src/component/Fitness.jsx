@@ -6,7 +6,7 @@ const Fitness = ()=>{
 
     return (
 
-        <div className="main">
+        <div className="main" id="fitness">
             <h1>FITNESS</h1>    
             <div className="fitness_container">
                 <Link to={"/cardio"} className="cardio card" style={{textDecoration: 'none', cursor: 'pointer'}}>

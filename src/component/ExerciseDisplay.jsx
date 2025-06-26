@@ -2,6 +2,10 @@ import { useEffect, useState } from "react";
 import { useParams} from "react-router-dom"
 import {chest, shoulder, leg, back, triceps, biceps} from "../Data.js"
 
+
+import Navbar from "./Navbar.jsx";
+import Footer from "./Footer.jsx";
+
 import heroImg from "../Pictures/Hero2.jpg";
 
 
@@ -34,6 +38,7 @@ const exercise_display = ()=>{
     
     return (
         <>
+            <Navbar/>
             {
                 display? (
                     <div className="exercise_component_container"> 
@@ -77,6 +82,7 @@ const exercise_display = ()=>{
                     </>
                 )
             }
+            <Footer/>
         </>
     )
 }

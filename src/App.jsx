@@ -11,8 +11,11 @@ import Cardio from './component/Cardio';
 import BodyTransition from './component/BodyTransition';
 import BMICalculator from './component/BMICalculator';
 import BuyProtine from './component/BuyProtine';
-
-
+import About from './component/About';
+import ExerciseDisplayPage from './pages/ExerciseDisplayPage';
+import ExerciseDisplay from './component/ExerciseDisplay';
+import FitnessPage from './pages/FitnessPage';
+import ContactPage from './pages/ContactPage';
 
 function App() {
   
@@ -20,12 +23,17 @@ function App() {
     <>
       <Router>
           <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/exercise/:name" element={<ExercisePage/>} />
-            <Route path='/cardio' element={<Cardio/>}/>
-            <Route path='/bodyTransition' element={<BodyTransition/>}/>
-            <Route path='/bmicalculator' element={<BMICalculator/>}/>
-            <Route path='/buyprotine' element={<BuyProtine/>}/>
+            <Route path="/" element={<HomePage/>} />
+            <Route path="/exercise/:name" element={<ExerciseDisplayPage/>} />
+            <Route path="/exercise" element={<ExercisePage/>} />
+            <Route path="/exercise/exercise/:name" element={<ExerciseDisplay/>} />
+            <Route path="/fitness" element={<FitnessPage/>} />
+            <Route path="/cardio" element={<Cardio/>}/>
+            <Route path="/bodyTransition" element={<BodyTransition/>}/>
+            <Route path="/bmicalculator" element={<BMICalculator/>}/>
+            <Route path="/buyprotine" element={<BuyProtine/>}/>
+            <Route path="/about" element={<About/>}/>
+            <Route path="/contact" element={<ContactPage/>}/>
           </Routes>
       </Router>
     </>

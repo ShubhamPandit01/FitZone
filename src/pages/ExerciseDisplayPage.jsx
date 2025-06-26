@@ -1,19 +1,19 @@
 
 import Navbar from "../component/Navbar"
 import Footer from "../component/Footer"
-import { Exercise } from "../component/Exercise"
+import ExerciseDisplay from "../component/ExerciseDisplay"
 
 
-const ExercisePage = ()=>{
+const ExerciseDisplayPage = ()=>{
 
     return (
         <>
             <Navbar/>
-            <Exercise/>
+            <ExerciseDisplay />
             <Footer/>
         </>
     )
 }
 
 
-export default ExercisePage
+export default ExerciseDisplayPage
