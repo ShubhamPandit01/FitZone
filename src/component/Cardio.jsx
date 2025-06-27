@@ -2,7 +2,6 @@
 import {cardio} from '../Data.js'
 import Navbar from '../component/Navbar.jsx'
 import Footer from '../component/Footer.jsx'
-import heroImg from "../Pictures/Hero2.jpg";
 
 
 
@@ -12,10 +11,11 @@ const Cardio = () => {
         <>  
         <Navbar/>
         <div className='cardio_container'>
+            <h1>Cardio</h1>
             {   
                 cardio.map((value)=>(
                         <div key={value.id} className="cardio_card" style={{flexDirection: value.id%2 != 0? 'row':'row-reverse'}}>
-                            <img src={heroImg} alt= {value.title}/>
+                            <img src={value.image} alt= {value.title}/>
                             <div className="cardio_details">
                                 <h2>{value.title}</h2>
                                 <h4>{value.description}</h4>
@@ -29,7 +29,6 @@ const Cardio = () => {
                 ))
             }
         </div>
-        <Footer/>
         </>
     )
 }

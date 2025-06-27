@@ -5,7 +5,7 @@ export const chest = [
     id: 1,
     name: "Incline Dumbbell Press",
     description: "Targets the upper portion of the pectoral muscles for balanced chest development.",
-    image: "https://example.com/images/incline-dumbbell-press.jpg",
+    image: "https://i.pinimg.com/originals/60/77/fb/6077fb87e19f8738d539852db0e534bc.gif",
     instructions: [
       "• Perform 3-4 sets of 8-12 reps.",
       "• Use an incline bench set at 30–45 degrees.",
@@ -23,7 +23,7 @@ export const chest = [
     id: 2,
     name: "Butterfly Machine (Chest Fly)",
     description: "Isolates and strengthens the inner chest for muscle definition and shape.",
-    image: "https://example.com/images/butterfly-machine.jpg",
+    image: "https://i.pinimg.com/736x/ee/d9/41/eed9415097dc02897d15257ca7a8ba47.jpg",
     instructions: [
       "• Perform 3 sets of 10-15 reps.",
       "• Adjust the seat and handles to chest height.",
@@ -41,7 +41,7 @@ export const chest = [
     id: 3,
     name: "Flat Bench Press (Barbell)",
     description: "A classic compound movement to build overall chest size and strength.",
-    image: "https://example.com/images/flat-bench-press.jpg",
+    image: "https://i.pinimg.com/originals/62/cb/97/62cb97dd04d7dab6762dbc90abf5fa1c.gif",
     instructions: [
       "• Perform 4 sets of 6-10 reps.",
       "• Lie flat on a bench with feet flat on the floor.",
@@ -59,7 +59,7 @@ export const chest = [
     id: 4,
     name: "Push-Ups",
     description: "A bodyweight exercise that activates the entire chest and core muscles.",
-    image: "https://example.com/images/push-ups.jpg",
+    image: "https://i.pinimg.com/originals/d2/31/f2/d231f224c6a905bf7d7ccfb7cfe7d096.gif",
     instructions: [
       "• Perform 3 sets of 15-20 reps.",
       "• Start in a plank position with hands shoulder-width apart.",
@@ -77,7 +77,7 @@ export const chest = [
     id: 5,
     name: "Incline Bench Cable Fly",
     description: "Targets upper chest with continuous tension throughout the range of motion.",
-    image: "https://example.com/images/incline-cable-fly.jpg",
+    image: "https://i.pinimg.com/736x/a4/b3/44/a4b344fb0070f5e09f275a8ce7602909.jpg",
     instructions: [
       "• Perform 3-4 sets of 12-15 reps.",
       "• Set the bench to a 30–45 degree incline.",
@@ -95,7 +95,7 @@ export const chest = [
     id: 6,
     name: "Decline Dumbbell Press",
     description: "Focuses on the lower pectorals, adding depth and fullness to the chest.",
-    image: "https://example.com/images/decline-dumbbell-press.jpg",
+    image: "https://i.pinimg.com/originals/90/89/83/9089835e446b9dd9b180bdfda6b06ad8.gif",
     instructions: [
       "• Perform 3 sets of 8-12 reps.",
       "• Lie on a decline bench securely.",
@@ -113,7 +113,7 @@ export const chest = [
     id: 7,
     name: "Chest Dips",
     description: "Bodyweight movement that builds lower chest and triceps effectively.",
-    image: "https://example.com/images/chest-dips.jpg",
+    image: "https://i.pinimg.com/originals/e7/45/d6/e745d6fcd41963a8a6d36c4b66c009a9.gif",
     instructions: [
       "• Perform 3 sets to failure or 10-12 reps.",
       "• Use parallel bars and lean slightly forward.",
@@ -131,7 +131,7 @@ export const chest = [
     id: 8,
     name: "Smith Machine Incline Press",
     description: "Provides support for controlled pressing motion targeting upper chest.",
-    image: "https://example.com/images/smith-incline-press.jpg",
+    image: "https://i.pinimg.com/originals/ea/b0/14/eab014a84188d4782a43be1ba9a8a0f9.gif",
     instructions: [
       "• Perform 4 sets of 10-12 reps.",
       "• Set the bench to an incline under the Smith machine.",
@@ -149,7 +149,7 @@ export const chest = [
     id: 9,
     name: "Cable Crossover (High to Low)",
     description: "Emphasizes the lower and inner chest, enhancing separation and shape.",
-    image: "https://example.com/images/cable-crossover.jpg",
+    image: "https://i.pinimg.com/736x/bd/d0/8c/bdd08cc009b9e4a4bc9c4d59ff686689.jpg",
     instructions: [
       "• Perform 3 sets of 12-15 reps.",
       "• Set pulleys to the highest position.",
@@ -167,7 +167,7 @@ export const chest = [
     id: 10,
     name: "Machine Chest Press",
     description: "A safe and effective alternative to free weights for beginners or high-rep sets.",
-    image: "https://example.com/images/machine-chest-press.jpg",
+    image: "https://i.pinimg.com/originals/bd/24/6a/bd246a2471fabd0af85a9656214ef861.gif",
     instructions: [
       "• Perform 3-4 sets of 10-15 reps.",
       "• Adjust the seat and handles to chest level.",
@@ -190,7 +190,7 @@ export const triceps = [
     id: 1,
     name: "Triceps Pushdown (Cable)",
     description: "A fundamental triceps isolation exercise using a cable machine to target all three tricep heads.",
-    image: "https://example.com/images/triceps-pushdown.jpg",
+    image: "https://i.pinimg.com/originals/72/6a/6a/726a6ae9a2c9b83340f27ebcb0d5fc1d.gif",
     instructions: [
       "• Perform 3-4 sets of 10-15 reps.",
       "• Attach a straight or angled bar to the high pulley.",
@@ -208,7 +208,7 @@ export const triceps = [
     id: 2,
     name: "Overhead Dumbbell Extension",
     description: "Targets the long head of the triceps for size and strength.",
-    image: "https://example.com/images/overhead-dumbbell-extension.jpg",
+    image: "https://i.pinimg.com/originals/b2/1f/22/b21f226fa36036b0d02884c8cb7dc0b7.gif",
     instructions: [
       "• Perform 3 sets of 10-12 reps.",
       "• Sit or stand with one or both hands holding a dumbbell overhead.",
@@ -226,7 +226,7 @@ export const triceps = [
     id: 3,
     name: "Close-Grip Bench Press",
     description: "A compound movement that emphasizes triceps while also involving chest and shoulders.",
-    image: "https://example.com/images/close-grip-bench-press.jpg",
+    image: "https://i.pinimg.com/originals/eb/2e/f7/eb2ef7d0bf06a7a6bd75a946658a91fe.gif",
     instructions: [
       "• Perform 4 sets of 6-10 reps.",
       "• Lie flat on a bench with feet firmly on the ground.",
@@ -244,7 +244,7 @@ export const triceps = [
     id: 4,
     name: "Triceps Dips (Bench or Parallel Bars)",
     description: "Bodyweight exercise great for targeting the lower portion of the triceps.",
-    image: "https://example.com/images/triceps-dips.jpg",
+    image: "https://i.pinimg.com/736x/e8/e7/1f/e8e71f6611d65f0002bfca7272ad18b9.jpg",
     instructions: [
       "• Perform 3 sets of 12-15 reps.",
       "• Use a bench or parallel bars for support.",
@@ -262,7 +262,7 @@ export const triceps = [
     id: 5,
     name: "Skull Crushers (EZ Bar)",
     description: "Highly effective for isolating the triceps, especially the long and lateral heads.",
-    image: "https://example.com/images/skull-crushers.jpg",
+    image: "https://i.pinimg.com/originals/ad/fa/07/adfa071cbb701eda0a8ea9887eb938d0.gif",
     instructions: [
       "• Perform 3 sets of 8-12 reps.",
       "• Lie on a flat bench with an EZ bar in hand.",
@@ -280,7 +280,7 @@ export const triceps = [
     id: 6,
     name: "Rope Overhead Cable Extension",
     description: "Provides continuous tension on the triceps, targeting the long head.",
-    image: "https://example.com/images/rope-overhead-extension.jpg",
+    image: "https://i.pinimg.com/originals/f2/0b/e6/f20be6288ca15b0fc2f7c43316b6b729.gif",
     instructions: [
       "• Perform 3 sets of 12-15 reps.",
       "• Attach a rope handle to a low pulley.",
@@ -298,7 +298,7 @@ export const triceps = [
     id: 7,
     name: "Kickbacks (Dumbbell)",
     description: "An isolation move for defining the back of the arms.",
-    image: "https://example.com/images/triceps-kickbacks.jpg",
+    image: "https://i.pinimg.com/originals/b3/ae/b7/b3aeb79166d35415da6e7910db92057a.gif",
     instructions: [
       "• Perform 3 sets of 15-20 reps.",
       "• Hold a dumbbell in one hand and bend forward slightly.",
@@ -316,7 +316,7 @@ export const triceps = [
     id: 8,
     name: "Diamond Push-Ups",
     description: "A bodyweight movement that places more emphasis on the triceps than regular push-ups.",
-    image: "https://example.com/images/diamond-push-ups.jpg",
+    image: "https://i.pinimg.com/originals/48/da/79/48da79042a1a23b3060e4fa684b8af90.gif",
     instructions: [
       "• Perform 3 sets of 12-20 reps.",
       "• Place hands under chest forming a diamond shape.",
@@ -334,7 +334,7 @@ export const triceps = [
     id: 9,
     name: "Barbell Overhead Triceps Extension",
     description: "Great for heavy loading and developing triceps thickness.",
-    image: "https://example.com/images/barbell-overhead-extension.jpg",
+    image: "https://i.pinimg.com/originals/b2/1f/22/b21f226fa36036b0d02884c8cb7dc0b7.gif",
     instructions: [
       "• Perform 3 sets of 8-10 reps.",
       "• Sit or stand holding a barbell overhead with both hands.",
@@ -352,7 +352,7 @@ export const triceps = [
     id: 10,
     name: "One-Arm Cable Pushdown",
     description: "Helps isolate each triceps individually and correct muscular imbalances.",
-    image: "https://example.com/images/one-arm-pushdown.jpg",
+    image: "https://i.pinimg.com/originals/72/6a/6a/726a6ae9a2c9b83340f27ebcb0d5fc1d.gif",
     instructions: [
       "• Perform 3 sets of 12-15 reps per arm.",
       "• Attach a single handle to a high pulley.",
@@ -376,7 +376,7 @@ export const shoulder = [
     id: 1,
     name: "Overhead Barbell Press",
     description: "A foundational compound lift that targets the front and side deltoids along with triceps and upper chest.",
-    image: "https://example.com/images/overhead-barbell-press.jpg",
+    image: "https://i.pinimg.com/originals/0d/e1/98/0de1986e80eba3c85cf3853c8fc0b8d7.gif",
     instructions: [
       "• Perform 4 sets of 6-10 reps.",
       "• Stand with feet shoulder-width apart.",
@@ -394,7 +394,7 @@ export const shoulder = [
     id: 2,
     name: "Dumbbell Shoulder Press",
     description: "Builds balanced shoulder strength and size while allowing a more natural range of motion.",
-    image: "https://example.com/images/dumbbell-shoulder-press.jpg",
+    image: "https://i.pinimg.com/originals/a0/62/45/a06245ae35f261838e8aa7eb133c080d.gif",
     instructions: [
       "• Perform 3-4 sets of 8-12 reps.",
       "• Sit on a bench with back support.",
@@ -412,7 +412,7 @@ export const shoulder = [
     id: 3,
     name: "Lateral Raises",
     description: "Isolates the lateral deltoids to build width and give the shoulders a capped appearance.",
-    image: "https://example.com/images/lateral-raises.jpg",
+    image: "https://i.pinimg.com/originals/3d/05/b5/3d05b59f45c6dae7a053b07d52befafb.gif",
     instructions: [
       "• Perform 3-4 sets of 12-15 reps.",
       "• Stand upright holding light dumbbells by your side.",
@@ -430,7 +430,7 @@ export const shoulder = [
     id: 4,
     name: "Front Raises (Dumbbell or Plate)",
     description: "Targets the front deltoids and helps with shoulder strength and aesthetics.",
-    image: "https://example.com/images/front-raises.jpg",
+    image: "https://i.pinimg.com/originals/dd/01/d7/dd01d7f4b5a021849ab0a3e1a7f54c49.gif",
     instructions: [
       "• Perform 3 sets of 10-15 reps.",
       "• Hold a plate or dumbbells in front of your thighs.",
@@ -448,7 +448,7 @@ export const shoulder = [
     id: 5,
     name: "Rear Delt Fly (Pec Deck or Dumbbells)",
     description: "Isolates the rear delts for balanced shoulder development and posture.",
-    image: "https://example.com/images/rear-delt-fly.jpg",
+    image: "https://i.pinimg.com/originals/01/6f/5e/016f5e3c2cd5088dd234c3dbc74213d4.gif",
     instructions: [
       "• Perform 3 sets of 12-15 reps.",
       "• Sit on a pec deck or hinge forward with dumbbells.",
@@ -466,7 +466,7 @@ export const shoulder = [
     id: 6,
     name: "Arnold Press",
     description: "A variation of the shoulder press that targets all three deltoid heads with added rotation.",
-    image: "https://example.com/images/arnold-press.jpg",
+    image: "https://i.pinimg.com/originals/a0/62/45/a06245ae35f261838e8aa7eb133c080d.gif",
     instructions: [
       "• Perform 3 sets of 10-12 reps.",
       "• Start with dumbbells in front of shoulders, palms facing you.",
@@ -484,7 +484,7 @@ export const shoulder = [
     id: 7,
     name: "Cable Lateral Raise",
     description: "Keeps constant tension on the lateral delts for better hypertrophy.",
-    image: "https://example.com/images/cable-lateral-raise.jpg",
+    image: "https://i.pinimg.com/originals/10/27/64/1027649f1835484972c145d80dce5d7c.gif",
     instructions: [
       "• Perform 3 sets of 15 reps per side.",
       "• Attach a single handle to a low pulley.",
@@ -502,7 +502,7 @@ export const shoulder = [
     id: 8,
     name: "Barbell Upright Row",
     description: "Engages the traps and deltoids, especially the lateral head.",
-    image: "https://example.com/images/upright-row.jpg",
+    image: "https://i.pinimg.com/originals/a4/97/95/a49795f312f3d7dbef7d59c926c786c1.gif",
     instructions: [
       "• Perform 3 sets of 10-12 reps.",
       "• Hold a barbell with a close grip in front of thighs.",
@@ -520,7 +520,7 @@ export const shoulder = [
     id: 9,
     name: "Face Pulls",
     description: "Builds rear delts and improves shoulder health and posture.",
-    image: "https://example.com/images/face-pulls.jpg",
+    image: "https://i.pinimg.com/originals/c5/3b/8c/c53b8c84f1b8f044d05da7462016c417.gif",
     instructions: [
       "• Perform 3 sets of 15-20 reps.",
       "• Attach rope to high pulley at face level.",
@@ -538,7 +538,7 @@ export const shoulder = [
     id: 10,
     name: "Machine Shoulder Press",
     description: "Provides stability and control, making it great for beginners or high-volume sets.",
-    image: "https://example.com/images/machine-shoulder-press.jpg",
+    image: "https://i.pinimg.com/originals/4d/28/90/4d28907a4831c671b13f4c433e8a77d1.gif",
     instructions: [
       "• Perform 4 sets of 12 reps.",
       "• Adjust seat so handles align with shoulders.",
@@ -563,7 +563,7 @@ export const biceps = [
     id: 1,
     name: "Barbell Curl",
     description: "A fundamental mass-building movement that targets the entire biceps.",
-    image: "https://example.com/images/barbell-curl.jpg",
+    image: "https://i.pinimg.com/originals/18/22/98/1822987b4f9998a82ae1acde627ead96.gif",
     instructions: [
       "• Perform 3-4 sets of 8-12 reps.",
       "• Stand with feet shoulder-width apart holding a barbell.",
@@ -581,7 +581,7 @@ export const biceps = [
     id: 2,
     name: "Dumbbell Hammer Curl",
     description: "Targets the brachialis and adds thickness to the upper arms.",
-    image: "https://example.com/images/hammer-curl.jpg",
+    image: "https://i.pinimg.com/originals/ba/bc/74/babc74a35dd94120a251d9254a5c70fa.gif",
     instructions: [
       "• Perform 3 sets of 10-12 reps.",
       "• Stand holding dumbbells with palms facing in (neutral grip).",
@@ -599,7 +599,7 @@ export const biceps = [
     id: 3,
     name: "Concentration Curl",
     description: "Isolates the biceps peak and improves mind-muscle connection.",
-    image: "https://example.com/images/concentration-curl.jpg",
+    image: "https://i.pinimg.com/originals/5d/08/f7/5d08f7c3fb0350f7eef570430d69e66e.gif",
     instructions: [
       "• Perform 3 sets of 12 reps per arm.",
       "• Sit on a bench and rest your elbow inside your thigh.",
@@ -617,7 +617,7 @@ export const biceps = [
     id: 4,
     name: "Preacher Curl (EZ Bar or Dumbbell)",
     description: "Locks the arms in place to isolate the biceps and prevent momentum.",
-    image: "https://example.com/images/preacher-curl.jpg",
+    image: "https://i.pinimg.com/originals/f5/e6/a8/f5e6a8255b791ae675d1935e8b49f884.gif",
     instructions: [
       "• Perform 3-4 sets of 10 reps.",
       "• Sit at a preacher bench with arms over the pad.",
@@ -635,7 +635,7 @@ export const biceps = [
     id: 5,
     name: "Cable Curl",
     description: "Maintains constant tension on the biceps throughout the movement.",
-    image: "https://example.com/images/cable-curl.jpg",
+    image: "https://i.pinimg.com/originals/cf/3a/6d/cf3a6d3668789e798df7bb1df9194422.gif",
     instructions: [
       "• Perform 3 sets of 12-15 reps.",
       "• Use a straight or EZ bar attached to a low pulley.",
@@ -653,7 +653,7 @@ export const biceps = [
     id: 6,
     name: "Incline Dumbbell Curl",
     description: "Stretches the biceps fully and targets the long head.",
-    image: "https://example.com/images/incline-curl.jpg",
+    image: "https://i.pinimg.com/originals/b4/30/64/b43064d9ad9f42493dbcf37e653ab87c.gif",
     instructions: [
       "• Perform 3 sets of 10 reps.",
       "• Sit back on an incline bench holding dumbbells.",
@@ -671,7 +671,7 @@ export const biceps = [
     id: 7,
     name: "Zottman Curl",
     description: "Combines regular and reverse curls to target biceps and forearms.",
-    image: "https://example.com/images/zottman-curl.jpg",
+    image: "https://i.pinimg.com/originals/4b/e4/68/4be46841032506b311d43b8d49c6a58a.gif",
     instructions: [
       "• Perform 3 sets of 12 reps.",
       "• Start with palms facing up and curl the dumbbells.",
@@ -689,7 +689,7 @@ export const biceps = [
     id: 8,
     name: "Spider Curl",
     description: "Provides strict isolation to maximize peak contraction.",
-    image: "https://example.com/images/spider-curl.jpg",
+    image: "https://i.pinimg.com/originals/72/84/6a/72846a524266aae45c3a31a34d86933a.gif",
     instructions: [
       "• Perform 3 sets of 12-15 reps.",
       "• Lie chest-down on an incline bench.",
@@ -707,7 +707,7 @@ export const biceps = [
     id: 9,
     name: "Reverse Curl (EZ Bar)",
     description: "Targets the brachioradialis and strengthens the forearms.",
-    image: "https://example.com/images/reverse-curl.jpg",
+    image: "https://i.pinimg.com/originals/b4/72/44/b472440e68a373d4ef110262bddfe98e.gif",
     instructions: [
       "• Perform 3 sets of 10 reps.",
       "• Grip an EZ bar with palms facing down.",
@@ -725,7 +725,7 @@ export const biceps = [
     id: 10,
     name: "One-Arm Cable Curl",
     description: "Isolates each arm for symmetry and shape development.",
-    image: "https://example.com/images/one-arm-cable-curl.jpg",
+    image: "https://i.pinimg.com/originals/c1/9b/21/c19b2113ba1e7831556d29b5a1fd6e12.gif",
     instructions: [
       "• Perform 3 sets of 12-15 reps per arm.",
       "• Attach a single handle to a low pulley.",
@@ -750,7 +750,7 @@ export const leg = [
     id: 1,
     name: "Barbell Back Squat",
     description: "The king of leg exercises targeting quads, hamstrings, glutes, and core.",
-    image: "https://example.com/images/back-squat.jpg",
+    image: "https://i.pinimg.com/originals/ba/1b/ce/ba1bce3e30058ca6b043afd0a9a92b56.gif",
     instructions: [
       "• Perform 4 sets of 6-10 reps.",
       "• Stand with feet shoulder-width apart, barbell across your traps.",
@@ -768,7 +768,7 @@ export const leg = [
     id: 2,
     name: "Leg Press",
     description: "Heavy compound movement that targets the quads and glutes.",
-    image: "https://example.com/images/leg-press.jpg",
+    image: "https://i.pinimg.com/originals/6e/77/3d/6e773d8f6913a93bf2a3e3d31e1e3f0f.gif",
     instructions: [
       "• Perform 3-4 sets of 10-12 reps.",
       "• Sit with back flat against the pad, feet shoulder-width on platform.",
@@ -786,7 +786,7 @@ export const leg = [
     id: 3,
     name: "Lunges (Dumbbell or Bodyweight)",
     description: "Targets quads, hamstrings, and improves balance and stability.",
-    image: "https://example.com/images/lunges.jpg",
+    image: "https://i.pinimg.com/originals/be/a3/ca/bea3ca109969b87ccfa9eaa00dd4e526.gif",
     instructions: [
       "• Perform 3 sets of 12 reps per leg.",
       "• Step forward with one leg and lower hips.",
@@ -804,7 +804,7 @@ export const leg = [
     id: 4,
     name: "Romanian Deadlift (Dumbbell or Barbell)",
     description: "Targets hamstrings and glutes while strengthening the posterior chain.",
-    image: "https://example.com/images/romanian-deadlift.jpg",
+    image: "https://i.pinimg.com/originals/07/48/5c/07485c73c14b3d6b8aabf9b049e287c4.gif",
     instructions: [
       "• Perform 3 sets of 10 reps.",
       "• Stand with feet hip-width and knees slightly bent.",
@@ -822,7 +822,7 @@ export const leg = [
     id: 5,
     name: "Leg Curl Machine",
     description: "Isolates the hamstrings for size and flexibility.",
-    image: "https://example.com/images/leg-curl.jpg",
+    image: "https://i.pinimg.com/originals/0c/51/de/0c51de835d14a8a3563651b5258ff2e2.gif",
     instructions: [
       "• Perform 4 sets of 12-15 reps.",
       "• Adjust the pad just above your ankles.",
@@ -840,7 +840,7 @@ export const leg = [
     id: 6,
     name: "Leg Extension",
     description: "Isolates the quadriceps to build size and strength.",
-    image: "https://example.com/images/leg-extension.jpg",
+    image: "https://i.pinimg.com/736x/dc/df/28/dcdf284ec0bb503ed8538d5d351b9639.jpg",
     instructions: [
       "• Perform 3 sets of 12-15 reps.",
       "• Adjust seat so knees align with machine pivot.",
@@ -858,7 +858,7 @@ export const leg = [
     id: 7,
     name: "Walking Lunges",
     description: "Works quads, glutes, and hamstrings while increasing endurance.",
-    image: "https://example.com/images/walking-lunges.jpg",
+    image: "https://i.pinimg.com/originals/16/b4/56/16b456f81ade5ff06dc63f1691531425.gif",
     instructions: [
       "• Perform 3 sets of 10-12 reps per leg.",
       "• Hold dumbbells or go bodyweight.",
@@ -876,7 +876,7 @@ export const leg = [
     id: 8,
     name: "Bulgarian Split Squat",
     description: "Single-leg exercise for quads and glutes with high intensity.",
-    image: "https://example.com/images/bulgarian-split-squat.jpg",
+    image: "https://i.pinimg.com/originals/51/05/b3/5105b38596c30705fc7b5f03a37d9246.gif",
     instructions: [
       "• Perform 3 sets of 8-10 reps per leg.",
       "• Stand in front of a bench and place one foot behind.",
@@ -894,7 +894,7 @@ export const leg = [
     id: 9,
     name: "Standing Calf Raise",
     description: "Builds the gastrocnemius muscle for larger calves.",
-    image: "https://example.com/images/standing-calf-raise.jpg",
+    image: "https://i.pinimg.com/originals/91/1f/b1/911fb167ad907dc16a293a59cb2d95db.gif",
     instructions: [
       "• Perform 3-4 sets of 15-20 reps.",
       "• Stand on a platform with heels hanging off.",
@@ -912,7 +912,7 @@ export const leg = [
     id: 10,
     name: "Seated Calf Raise",
     description: "Targets the soleus muscle in the lower leg for shape and definition.",
-    image: "https://example.com/images/seated-calf-raise.jpg",
+    image: "https://i.pinimg.com/736x/f2/87/aa/f287aa53598f73f840d2a3478509e92d.jpg",
     instructions: [
       "• Perform 4 sets of 20 reps.",
       "• Sit with pads resting above your knees.",
@@ -937,7 +937,7 @@ export const back = [
     id: 1,
     name: "Deadlift",
     description: "A full-body strength movement targeting the entire posterior chain.",
-    image: "https://example.com/images/deadlift.jpg",
+    image: "https://i.pinimg.com/originals/59/0f/48/590f48f868175b1d9330c71a518774da.gif",
     instructions: [
       "• Perform 4 sets of 5-8 reps.",
       "• Stand with feet hip-width apart and grip bar just outside knees.",
@@ -955,7 +955,7 @@ export const back = [
     id: 2,
     name: "Pull-Ups",
     description: "Bodyweight movement that targets the lats and upper back.",
-    image: "https://example.com/images/pull-ups.jpg",
+    image: "http://i.pinimg.com/originals/f6/40/12/f64012169c23b6be2a7f1823cac1db13.gif",
     instructions: [
       "• Perform 3 sets to failure or 8-12 reps.",
       "• Hang with a wide overhand grip from a bar.",
@@ -973,7 +973,7 @@ export const back = [
     id: 3,
     name: "Lat Pulldown",
     description: "Targets the lats and upper back while improving pull strength.",
-    image: "https://example.com/images/lat-pulldown.jpg",
+    image: "https://i.pinimg.com/originals/3a/95/9a/3a959a9fab6c6cfc7d08139dd348d88c.gif",
     instructions: [
       "• Perform 3-4 sets of 10-12 reps.",
       "• Sit with thighs secured under pads.",
@@ -991,7 +991,7 @@ export const back = [
     id: 4,
     name: "Bent Over Barbell Row",
     description: "Builds thickness in the mid-back and activates multiple back muscles.",
-    image: "https://example.com/images/barbell-row.jpg",
+    image: "https://i.pinimg.com/736x/8c/1b/94/8c1b940d3ddfedee19fffb9a15413e0e.jpg",
     instructions: [
       "• Perform 4 sets of 8-10 reps.",
       "• Hinge at hips and keep back flat, barbell in hands.",
@@ -1009,7 +1009,7 @@ export const back = [
     id: 5,
     name: "Seated Cable Row",
     description: "A machine-based row to isolate the back with continuous tension.",
-    image: "https://example.com/images/seated-row.jpg",
+    image: "https://i.pinimg.com/736x/10/fa/4d/10fa4dafd40f1b8a9eaa8594beb1cc90.jpg",
     instructions: [
       "• Perform 3 sets of 12-15 reps.",
       "• Sit upright with feet planted and knees slightly bent.",
@@ -1027,7 +1027,7 @@ export const back = [
     id: 6,
     name: "T-Bar Row",
     description: "Targets the mid and upper back with heavier loads.",
-    image: "https://example.com/images/t-bar-row.jpg",
+    image: "https://i.pinimg.com/originals/9b/f1/b9/9bf1b92c6f013d5c54d7450a021b9667.gif",
     instructions: [
       "• Perform 3 sets of 10 reps.",
       "• Stand over the T-bar with feet shoulder-width.",
@@ -1045,7 +1045,7 @@ export const back = [
     id: 7,
     name: "Single Arm Dumbbell Row",
     description: "Isolates each side of the back to ensure balanced development.",
-    image: "https://example.com/images/dumbbell-row.jpg",
+    image: "https://i.pinimg.com/736x/a7/31/ff/a731ff8cc95c430efa37bf8cbcceff86.jpg",
     instructions: [
       "• Perform 3 sets of 12 reps per arm.",
       "• Place one knee and hand on a bench for support.",
@@ -1063,7 +1063,7 @@ export const back = [
     id: 8,
     name: "Inverted Rows",
     description: "A bodyweight row alternative for back strength and shoulder stability.",
-    image: "https://example.com/images/inverted-rows.jpg",
+    image: "https://i.pinimg.com/originals/bf/e7/24/bfe724d83654d1f9556d5e25ab7c94da.gif",
     instructions: [
       "• Perform 3 sets of 12-15 reps.",
       "• Position a bar at waist height and lie underneath.",
@@ -1081,7 +1081,7 @@ export const back = [
     id: 9,
     name: "Straight Arm Pulldown",
     description: "Isolates the lats and improves mind-muscle connection.",
-    image: "https://example.com/images/straight-arm-pulldown.jpg",
+    image: "https://i.pinimg.com/originals/74/68/5a/74685a8a1b44b902c9d3ac1404844e88.gif",
     instructions: [
       "• Perform 3 sets of 15 reps.",
       "• Use a rope or straight bar on the high pulley.",
@@ -1099,7 +1099,7 @@ export const back = [
     id: 10,
     name: "Machine Row",
     description: "A stable and safe option to develop thickness in the back.",
-    image: "https://example.com/images/machine-row.jpg",
+    image: "https://i.pinimg.com/originals/6d/93/7f/6d937ff1cb05cd56dab8eff75d89c7bf.gif",
     instructions: [
       "• Perform 4 sets of 12 reps.",
       "• Adjust seat so handles align with mid-chest.",
@@ -1124,7 +1124,7 @@ export const cardio = [
     id: 1,
     title: "Jumping Jacks",
     description: "A full-body warm-up exercise that increases heart rate and blood flow.",
-    image: "https://source.unsplash.com/featured/?jumpingjacks,fitness",
+    image: "https://i.pinimg.com/originals/5d/57/5b/5d575b7395e68f7e48fffb8c1483e7f9.gif",
     instruction: [
       "• Stand straight with your feet together and arms at your sides.",
       "• Jump up and spread your legs shoulder-width apart.",
@@ -1137,7 +1137,7 @@ export const cardio = [
     id: 2,
     title: "High Knees",
     description: "A high-intensity running-in-place movement to elevate heart rate and work your legs.",
-    image: "https://source.unsplash.com/featured/?highknees,cardio",
+    image: "https://i.pinimg.com/originals/47/d1/e3/47d1e35a0b3e0c604d001bcf71abf8dd.gif",
     instruction: [
       "• Stand with feet hip-width apart.",
       "• Run in place by lifting your knees to your chest level.",
@@ -1150,7 +1150,7 @@ export const cardio = [
     id: 3,
     title: "Burpees",
     description: "A full-body explosive movement that burns a high amount of calories quickly.",
-    image: "https://source.unsplash.com/featured/?burpees,fitness",
+    image: "https://i.pinimg.com/736x/fd/fd/1c/fdfd1c4b2bfc89927a7a01daaad4034d.jpg",
     instruction: [
       "• Start standing, then squat and place hands on the floor.",
       "• Kick your feet back to get into a push-up position.",
@@ -1163,7 +1163,7 @@ export const cardio = [
     id: 4,
     title: "Mountain Climbers",
     description: "A fast-paced plank exercise that targets the core, shoulders, and cardiovascular system.",
-    image: "https://source.unsplash.com/featured/?mountainclimbers,exercise",
+    image: "https://i.pinimg.com/736x/8a/30/d6/8a30d60aabe3193772c17ca98abdf432.jpg",
     instruction: [
       "• Start in a high plank position.",
       "• Drive one knee toward your chest.",
@@ -1176,7 +1176,7 @@ export const cardio = [
     id: 5,
     title: "Jump Rope",
     description: "A simple but effective cardio exercise that improves coordination and stamina.",
-    image: "https://source.unsplash.com/featured/?jumprope,cardio",
+    image: "https://i.pinimg.com/736x/03/a2/4d/03a24d757a54f86f9147c32d449474fb.jpg",
     instruction: [
       "• Hold a jump rope with handles in each hand.",
       "• Keep elbows close to your body.",
@@ -1189,7 +1189,7 @@ export const cardio = [
     id: 6,
     title: "Butt Kicks",
     description: "A cardio move that helps stretch and strengthen the hamstrings and glutes.",
-    image: "https://source.unsplash.com/featured/?buttkicks,exercise",
+    image: "https://i.pinimg.com/736x/08/57/6d/08576d76b725d6a962bc994e0f44a490.jpg",
     instruction: [
       "• Stand tall with feet hip-width apart.",
       "• Run in place while kicking heels to your glutes.",
@@ -1202,7 +1202,7 @@ export const cardio = [
     id: 7,
     title: "Skaters",
     description: "A lateral movement that mimics ice skating to improve agility and cardiovascular endurance.",
-    image: "https://source.unsplash.com/featured/?skaters,lateraljump",
+    image: "https://i.pinimg.com/736x/99/ba/12/99ba1270b666474605801f753283db1c.jpg",
     instruction: [
       "• Start in a slight squat position.",
       "• Leap to the right, landing on your right foot.",
@@ -1215,7 +1215,7 @@ export const cardio = [
     id: 8,
     title: "Jump Squats",
     description: "Combines strength and cardio to target legs and boost heart rate.",
-    image: "https://source.unsplash.com/featured/?jumpsquat,fitness",
+    image: "https://i.pinimg.com/originals/fa/ca/63/faca63e8e5082cef30381133c0d4325a.gif",
     instruction: [
       "• Stand with feet shoulder-width apart.",
       "• Lower into a squat keeping your chest up.",
@@ -1228,7 +1228,7 @@ export const cardio = [
     id: 9,
     title: "Sprint Intervals",
     description: "Short bursts of running that improve speed, endurance, and calorie burn.",
-    image: "https://source.unsplash.com/featured/?sprint,running",
+    image: "https://i.pinimg.com/originals/9b/2f/8e/9b2f8e5e833004aa2084ab855e2802e1.gif",
     instruction: [
       "• Start with a 2-minute warm-up jog.",
       "• Sprint at full effort for 20-30 seconds.",
@@ -1241,7 +1241,7 @@ export const cardio = [
     id: 10,
     title: "Shadow Boxing",
     description: "A fast-paced cardio drill involving imaginary combat to improve coordination and speed.",
-    image: "https://source.unsplash.com/featured/?shadowboxing,cardio",
+    image: "https://i.pinimg.com/736x/09/9d/5a/099d5a4f3fe7f51c7605a012de2d08f8.jpg",
     instruction: [
       "• Stand in a fighter stance with knees slightly bent.",
       "• Throw punches in the air: jabs, crosses, hooks.",
@@ -1254,7 +1254,7 @@ export const cardio = [
     id: 11,
     title: "Tuck Jumps",
     description: "A plyometric cardio exercise that builds power and raises heart rate fast.",
-    image: "https://source.unsplash.com/featured/?tuckjumps,plyometrics",
+    image: "https://i.pinimg.com/originals/af/f4/77/aff47768dad76e1e6acdbd1ad7589e0a.gif",
     instruction: [
       "• Stand tall with feet shoulder-width apart.",
       "• Jump straight up while tucking your knees to your chest.",
@@ -1267,7 +1267,7 @@ export const cardio = [
     id: 12,
     title: "Lateral Shuffles",
     description: "A quick footwork drill to enhance side-to-side agility and cardiovascular output.",
-    image: "https://source.unsplash.com/featured/?shuffles,fitness",
+    image: "https://i.pinimg.com/736x/a5/43/c7/a543c7861e5863c646cd825e93317f76.jpg",
     instruction: [
       "• Start in a semi-squat position.",
       "• Shuffle 3-4 steps to the right.",
@@ -1280,7 +1280,7 @@ export const cardio = [
     id: 13,
     title: "Stair Climbing",
     description: "Utilizes staircases for a high-effort cardio session focusing on legs and endurance.",
-    image: "https://source.unsplash.com/featured/?stairclimb,cardio",
+    image: "https://i.pinimg.com/originals/92/87/2a/92872a24c9f99c4a702dc2e5fe41e71c.gif",
     instruction: [
       "• Find a staircase or stair machine.",
       "• Climb up the stairs quickly.",
@@ -1293,7 +1293,7 @@ export const cardio = [
     id: 14,
     title: "Box Jumps",
     description: "A dynamic plyometric movement that works the legs and improves explosive strength.",
-    image: "https://source.unsplash.com/featured/?boxjump,exercise",
+    image: "https://i.pinimg.com/originals/81/be/c5/81bec567681d95bba4ec5f013ca28352.gif",
     instruction: [
       "• Stand in front of a sturdy box or platform.",
       "• Bend your knees and swing your arms.",
@@ -1306,7 +1306,7 @@ export const cardio = [
     id: 15,
     title: "Bear Crawls",
     description: "A full-body cardio drill that strengthens the core, shoulders, and legs.",
-    image: "https://source.unsplash.com/featured/?bearcrawl,workout",
+    image: "https://i.pinimg.com/736x/08/9b/65/089b6543747b235f220bc048ea2616d3.jpg",
     instruction: [
       "• Start on all fours, knees slightly off the ground.",
       "• Move opposite hand and foot forward.",
@@ -1319,7 +1319,7 @@ export const cardio = [
     id: 16,
     title: "Jog in Place",
     description: "A low-impact cardio movement that can be done anywhere for a light warm-up.",
-    image: "https://source.unsplash.com/featured/?joginplace,fitness",
+    image: "https://i.pinimg.com/originals/49/c5/1e/49c51ee36922a924e19636bfc0561de6.gif",
     instruction: [
       "• Stand tall with arms bent at 90 degrees.",
       "• Start jogging in place lifting feet off the ground.",
@@ -1332,7 +1332,7 @@ export const cardio = [
     id: 17,
     title: "Plank Jacks",
     description: "Combines core engagement with jumping to elevate heart rate and strengthen abs.",
-    image: "https://source.unsplash.com/featured/?plankjacks,cardio",
+    image: "https://i.pinimg.com/originals/81/be/c5/81bec567681d95bba4ec5f013ca28352.gif",
     instruction: [
       "• Get into a forearm or high plank position.",
       "• Jump feet out to the sides and back in.",
@@ -1345,7 +1345,7 @@ export const cardio = [
     id: 18,
     title: "Running",
     description: "A foundational cardio workout for endurance, fat burn, and overall health.",
-    image: "https://source.unsplash.com/featured/?running,cardio",
+    image: "https://i.pinimg.com/originals/97/9d/a8/979da86b7027825dab392e0eb59661c3.gif",
     instruction: [
       "• Warm up with a 5-minute walk or light jog.",
       "• Run at a steady, manageable pace.",
@@ -1358,7 +1358,7 @@ export const cardio = [
     id: 19,
     title: "Bicycle Crunches",
     description: "Targets the abs with a cardio twist through alternating leg movements.",
-    image: "https://source.unsplash.com/featured/?bicyclecrunches,abs",
+    image: "https://i.pinimg.com/originals/d9/cc/c9/d9ccc911504c370177f0da0c3289b184.gif",
     instruction: [
       "• Lie on your back with hands behind your head.",
       "• Lift shoulders off the floor.",
@@ -1371,7 +1371,7 @@ export const cardio = [
     id: 20,
     title: "Step Touch",
     description: "A beginner-friendly cardio move that keeps the heart rate up with lateral motion.",
-    image: "https://source.unsplash.com/featured/?stepaerobics,cardio",
+    image: "https://i.pinimg.com/736x/a2/dc/b9/a2dcb954f67717e294c7ad13f1632e4d.jpg",
     instruction: [
       "• Stand with feet together, arms by your side.",
       "• Step to the right and tap the left foot next to it.",
@@ -1771,8 +1771,6 @@ export const decrement = [
     ]
   }
 ];
-
-
 
 
 

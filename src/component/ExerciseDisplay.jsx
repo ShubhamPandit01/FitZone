@@ -6,8 +6,6 @@ import {chest, shoulder, leg, back, triceps, biceps} from "../Data.js"
 import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 
-import heroImg from "../Pictures/Hero2.jpg";
-
 
 const exercise_display = ()=>{
 
@@ -48,7 +46,7 @@ const exercise_display = ()=>{
                             {
                                 exerciseData.map((exercise)=>(
                                     <div key={exercise.id} className="exercise_card" onClick={()=>{setExerciseId(exercise.id), setDisplay(false)}}>
-                                        <img src={heroImg} alt={exercise.name} />
+                                        <img src={exercise.image} alt={exercise.name} />
                                         <h2>{exercise.name}</h2>
                                         <p>{exercise.description}</p>
                                     </div>
@@ -61,7 +59,7 @@ const exercise_display = ()=>{
                         {
                             filterValue.map((value)=>(
                                 <div className="exercise_detail_card">
-                                    <img src={heroImg} alt={value.name} />
+                                    <img src={value.image} alt={value.name} />
                                     <div className="details">
                                         <h1>{value.name}</h1>
                                         <h3>{value.description}</h3>

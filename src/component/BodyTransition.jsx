@@ -3,8 +3,6 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 import {increment, decrement} from '../Data.js'
 
-import image from '../Pictures/increment.jpg'
-
 
 const BodyTransition = () => {
 
@@ -61,7 +59,7 @@ const BodyTransition = () => {
         ) : (
           <div className="diet_plan">
             <div className="body_image">
-              <img src={image} alt="Image" />
+              <img src= "https://i.pinimg.com/736x/84/a0/25/84a025ea2c201d9a58e9011e59bae333.jpg" alt="Image" />
             </div>
             <div className="diet">
                     <h3>Target: {weight}Kg Weight {goal} in <span style={{color: 'rgb(240, 209, 75)'}}>{plans.days} Days</span></h3>

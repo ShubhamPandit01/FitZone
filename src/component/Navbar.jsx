@@ -16,7 +16,7 @@ const Navbar = ()=>{
                     <div className="nav_items">
                         <h3 onClick={()=>setItemActive('')} ><Link to='/'>Home</Link></h3>
                         <h3 onClick={()=>setItemActive('exercise')} ><Link className={itemActive==="exercise"? 'active':''} to='/exercise'>Exercise</Link></h3>
-                        <h3 onClick={()=>setItemActive('fitness')} ><Link className={itemActive==="fitness"? 'active':''} to='fitness'>Fitness</Link></h3>
+                        <h3 onClick={()=>setItemActive('fitness')} ><Link className={itemActive==="fitness"? 'active':''} to='/fitness'>Fitness</Link></h3>
                         <h3 className={itemActive==="contact"? 'active':''} onClick={()=>setItemActive('contact')} ><Link to='/contact'>Contact</Link></h3>
                         <h3 className={itemActive==="about"? 'active':''} onClick={()=>setItemActive('about')}> <Link to='/about'>About</Link></h3>
                     </div>
