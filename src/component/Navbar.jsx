@@ -28,7 +28,7 @@ const Navbar = ()=>{
                 </div>
             </nav>
             {
-                hamburger && <Hamburger/>
+                hamburger && <Hamburger hamburger={setHamburger}/>
             }
         </>
     )
