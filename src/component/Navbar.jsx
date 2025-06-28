@@ -1,14 +1,19 @@
 import { useState } from "react"
 import { Link } from 'react-router-dom';
-
+import { RxHamburgerMenu } from "react-icons/rx";
+import Hamburger from "./Hamburger";
 
 const Navbar = ()=>{
 
     const [itemActive, setItemActive] = useState('')
+    const [hamburger, setHamburger] = useState(false)
 
     return( 
         <>
             <nav className='main_container'>
+                 <div className="hamburger_icon" onClick={()=>setHamburger(!hamburger)}>
+                        <span><RxHamburgerMenu /></span>
+                </div>
                 <div className="main_nav">
                     <div className="logo">
                         <h1 onClick={()=>setItemActive('')} ><Link to='/'>Fit<span style={{color:"rgb(240, 209, 75)"}}>Zone</span></Link></h1>
@@ -22,6 +27,9 @@ const Navbar = ()=>{
                     </div>
                 </div>
             </nav>
+            {
+                hamburger && <Hamburger/>
+            }
         </>
     )
 }

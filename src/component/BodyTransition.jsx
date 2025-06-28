@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
 import {increment, decrement} from '../Data.js'
 
 
@@ -22,7 +20,6 @@ const BodyTransition = () => {
 
   return (
     <>
-      <Navbar />
       <div className="body_transition_container">
         {display ? (
           <form className="weight-form" onSubmit={handleSubmit}>
@@ -64,24 +61,19 @@ const BodyTransition = () => {
             <div className="diet">
                     <h3>Target: {weight}Kg Weight {goal} in <span style={{color: 'rgb(240, 209, 75)'}}>{plans.days} Days</span></h3>
                     <h4>Exercise:</h4>
-                    <p>{plans.exercise[0]}</p>
-                    <p>{plans.exercise[1]}</p>
-                    <p>{plans.exercise[2]}</p>
+                    {
+                      plans.exercise.map((value,index)=>(<p key={index}>{value}</p>))
+                    }
                     <h4>Diet:</h4>
-                    <p>{plans.diet[0]}</p>
-                    <p>{plans.diet[1]}</p>
-                    <p>{plans.diet[2]}</p>
-                    <p>{plans.diet[3]}</p>
-                    <p>{plans.diet[4]}</p>
-                    <p>{plans.diet[5]}</p>
-                    <p>{plans.diet[6]}</p>
-                    <p>{plans.diet[7]}</p>
+                    {
+                      plans.diet.map((value,index)=>(<p key={index}>{value}</p>))
+                    }
                     <p>NOTE: Please take a screenshot for future purpose.</p>
             </div>
           </div>
         )}
       </div>
-      <Footer />
+
     </>
   );
 }

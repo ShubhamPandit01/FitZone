@@ -1,6 +1,4 @@
 
-import Navbar from "../component/Navbar"
-import Footer from "../component/Footer"
 import { Exercise } from "../component/Exercise"
 
 
@@ -8,9 +6,7 @@ const ExercisePage = ()=>{
 
     return (
         <>
-            <Navbar/>
             <Exercise/>
-            <Footer/>
         </>
     )
 }

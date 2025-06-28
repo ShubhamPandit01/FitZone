@@ -1,10 +1,8 @@
-import Navbar from '../component/Navbar';
-import Footer from '../component/Footer';
+
 
 const About = () => {
   return (
     <>
-      <Navbar />
       <div className='about_container'>
         <div className='about_content'>
           <h1>
@@ -47,7 +45,6 @@ const About = () => {
           </p>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

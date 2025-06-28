@@ -8,9 +8,7 @@ const ExerciseDisplayPage = ()=>{
 
     return (
         <>
-            <Navbar/>
-            <ExerciseDisplay />
-            <Footer/>
+           <ExerciseDisplay />
         </>
     )
 }

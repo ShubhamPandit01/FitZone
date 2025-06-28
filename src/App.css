@@ -22,7 +22,7 @@
 /* Navbar Css Start */
 
 .main_container{
-  width: 100%;
+  min-width: 100%;
   background-color: rgba(49, 48, 48, 0.5);
   position: fixed;
   top:0px;
@@ -58,7 +58,9 @@
 }
 
 
-
+.hamburger_icon{
+  display: none;
+}
 
 /* Navbar Css end */
 
@@ -198,11 +200,16 @@
 .main{
   background-color: #141414;
   color:white;
+  width: 100%;
   padding-bottom: 20px;
   h1{
     padding: 10px 0 0 20px;
     font-size: 40px;
   }
+}
+
+.fitness_page{
+  width: 100%;
 }
 
 .fitness_container{
@@ -233,24 +240,29 @@
 
 .footer_container{
   width: 100%;
-  height: 25vh;
-  display:flex;
-  justify-content: space-around;
-  align-items: center;
+  height: 120px;
   background-color: black;
   color:white;
-}
+  padding: 20px 0;
 
-.footer_logo{
-  text-align: center;
-  
   h1{
-    font-size: 40px;
+    padding-bottom: 10px; 
+    cursor: pointer;
+    text-align: center;
   }
 }
 
-.footer_item, .footer_item {
-  padding: 10px;
+.footer_item ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 18px;
+
+  :hover{
+    color:#ddb917;
+    scale: 1.1;
+  }
 }
 
 /* Footer Css end */
@@ -367,13 +379,14 @@ p{
 }
 
 .cardio_card{
+  width: 100%;
   display: flex;
   gap:25px;
   padding-bottom: 40px;
   height: 400px;
 
   img{
-    width:50% ;
+    min-width:50% ;
     border-radius: 10px;
     object-fit: cover;
     object-position: center;
@@ -395,17 +408,17 @@ p{
 }
 
 .cardio_details{
-  width: 50%;
+  min-width: 50%;
   padding-top: 5px;
 
 }
 
 
-.picture{
+/* .picture{
   width: 100%;
   height: 60vh;
   object-fit: cover;
-}
+} */
 
 
 /* Fitness Component Css END */
@@ -796,10 +809,47 @@ p{
 
 @media screen and (max-width: 768px) {
   .main_nav {
-    flex-direction: column;
-    gap: 10px;
-    height: auto;
-    padding: 10px 0;
+    height: 60px;
+    width: 80%;
+  }
+
+  .main_container{
+    width: 100%;
+    display: flex;
+  }
+  .logo {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .hamburger_icon{
+    padding-left: 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hamburger_container{
+    width: 30%;
+    height: 100vh;
+    background-color: rgba(49, 48, 48,0.9);
+    position: fixed;
+    top: 60px;
+    z-index: 50;
+    
+  }
+
+  .hamburger_item{
+    display: flex;
+    flex-direction: column ;
+    padding: 20px 0 0 40px;
+    gap: 25px;
+    font-size: 25px;
+  }
+
+  .nav_items{
+    display: none ;
   }
 
   .hero_text {
@@ -852,6 +902,10 @@ p{
     padding-top: 40px;
   }
 
+  .cardio_container{
+    width: 100%;
+  }
+
   .cardio_card {
     flex-direction: column;
     height: auto;
@@ -859,8 +913,9 @@ p{
 
   .cardio_card img,
   .cardio_details {
-    width: 320px;
-    height: 350px;
+    width: 150px;
+    height: 300px;
+
   }
   .cardio_card h2{
     font-size: 40px;
@@ -906,6 +961,229 @@ p{
   }
 }
 
+@media screen and (max-width: 480px) {
+  .main_nav {
+    height: auto;
+    width: 80%;
+  }
+
+  .hamburger_icon{
+    padding-left: 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hamburger_container{
+    width: 40%;
+    height: 100vh;
+    background-color: rgba(49, 48, 48,0.9);
+    position: fixed;
+    top: 40px;
+    z-index: 50;
+    
+  }
+
+  .hamburger_item{
+    display: flex;
+    flex-direction: column ;
+    padding: 10px 0 0 25px;
+    gap: 25px;
+    font-size: 18px;
+  }
+  
+  .main_container{
+    width: 100%;
+    display: flex;
+
+  }
+  .logo {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .hamburger_icon{
+    padding-left: 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero_text {
+    font-size: 32px;
+    top: 100px;
+    left: 20px;
+    text-align: left;
+  }
+
+  .hero_text button {
+    width: 90px;
+    font-size: 14px;
+  }
+
+  .hero_items {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .item {
+    height: auto;
+    padding: 10px;
+  }
+
+  .icon h2 {
+    font-size: 24px;
+  }
+
+
+  .exercise_container h1
+  .main h1,
+  .cardio_container h1,
+  .about_content h1 {
+    font-size: 40px;
+    padding: 45px 0 10px 10px;
+  }
+
+  .exercise_card{
+    height: 450px;
+  }
+
+  .exercise_detail_card{
+    width: 100%;
+    padding-top: 50px;
+
+    img{
+      border-radius: 15px;
+    }
+
+    h1{
+      font-size: 35px;
+    }
+
+    h3{
+      font-size: 25px;
+    }
+  }
+
+  .gym_item {
+    height: auto;
+    padding: 15px;
+
+    img{
+      height: 350px;
+    }
+  }
+
+  .gym_item h3 {
+    font-size: 40px;
+  }
+
+  .gym_item P{
+    font-size: 20PX;
+  }
+
+  .fitness_container {
+    grid-template-columns: 1fr;
+  }
+
+  .cardio_card {
+    display: inline-block;
+    height: auto;
+    padding-bottom: 0px;
+  }
+
+  .cardio_card img {
+    width: 100%;
+    height: 350px;
+    padding-bottom: 5px;
+  }
+
+  .cardio_details {
+    width: 100%;
+  }
+
+  .cardio_card h2 {
+    font-size: 25px;
+  }
+
+  .cardio_card h4 {
+    font-size: 15px;
+  }
+
+  .cardio_card p {
+    font-size: 12px;
+  }
+
+  .diet_plan {
+    flex-direction: column;
+    padding: 30px 15px;
+  }
+
+  .body_image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .weight-form,
+  .bmi-container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .bmi-container h2,
+  .bmi-container h3 {
+    font-size: 24px;
+  }
+
+  .footer_container {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  .about_content p {
+    font-size: 16px;
+  }
+
+  .about_container{
+    padding: 5px;
+  }
+
+  .contact_form,
+  .thankyou_message {
+    padding: 30px 20px;
+    width: 95%;
+  }
+
+  .contact_form h1 {
+    font-size: 36px;
+  }
+
+  .protine_container {
+    grid-template-columns: 1fr;
+  }
+
+  .protine_card img {
+    height: auto;
+  }
+
+  .protine_detail {
+    height: auto;
+  }
+
+  .footer_container{
+    flex-direction: row;
+    padding: 10px;
+  }
+
+  .footer_logo{
+  
+  h1{
+    font-size: 40px;
+  }
+  }
+}
 
 
 

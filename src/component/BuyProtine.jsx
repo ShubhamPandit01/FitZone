@@ -1,11 +1,9 @@
 import {proteinPowders} from "../Data.js"
-import Navbar from '../component/Navbar.jsx'
-import Footer from '../component/Footer.jsx'
+
 
 const BuyProtine = () => {
   return (
     <>
-        <Navbar/>
         <div className="protine_container">
             
                 {
@@ -26,7 +24,6 @@ const BuyProtine = () => {
                     ))
                 }
         </div>
-        <Footer/>
     </>
   )
 }

@@ -1,8 +1,6 @@
 // Created by GPT
 
 import { useEffect, useState } from "react";
-import Navbar from '../component/Navbar.jsx';
-import Footer from '../component/Footer.jsx';
 
 const BMICalculator = () => {
   const [weight, setWeight] = useState("");
@@ -45,7 +43,6 @@ const BMICalculator = () => {
 
   return (
     <>
-      <Navbar />
       <div className="main_bmi">
         <div className="bmi-container">
           <h2>BMI Calculator</h2>
@@ -94,7 +91,6 @@ const BMICalculator = () => {
           )}
         </div>
       </div>
-      <Footer />
     </>
   );
 };

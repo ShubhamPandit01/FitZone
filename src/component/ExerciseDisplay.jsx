@@ -3,10 +3,6 @@ import { useParams} from "react-router-dom"
 import {chest, shoulder, leg, back, triceps, biceps} from "../Data.js"
 
 
-import Navbar from "./Navbar.jsx";
-import Footer from "./Footer.jsx";
-
-
 const exercise_display = ()=>{
 
     const {name} = useParams()
@@ -36,7 +32,6 @@ const exercise_display = ()=>{
     
     return (
         <>
-            <Navbar/>
             {
                 display? (
                     <div className="exercise_component_container"> 
@@ -57,8 +52,8 @@ const exercise_display = ()=>{
                 ) : (
                     <>
                         {
-                            filterValue.map((value)=>(
-                                <div className="exercise_detail_card">
+                            filterValue.map((value,index)=>(
+                                <div className="exercise_detail_card" key={index}>
                                     <img src={value.image} alt={value.name} />
                                     <div className="details">
                                         <h1>{value.name}</h1>
@@ -80,7 +75,6 @@ const exercise_display = ()=>{
                     </>
                 )
             }
-            <Footer/>
         </>
     )
 }

@@ -16,12 +16,16 @@ import ExerciseDisplayPage from './pages/ExerciseDisplayPage';
 import ExerciseDisplay from './component/ExerciseDisplay';
 import FitnessPage from './pages/FitnessPage';
 import ContactPage from './pages/ContactPage';
+import Navbar from './component/Navbar';
+import Footer from './component/Footer';
 
 function App() {
   
   return(
     <>
+      
       <Router>
+        <Navbar/>
           <Routes>
             <Route path="/" element={<HomePage/>} />
             <Route path="/exercise/:name" element={<ExerciseDisplayPage/>} />
@@ -35,6 +39,7 @@ function App() {
             <Route path="/about" element={<About/>}/>
             <Route path="/contact" element={<ContactPage/>}/>
           </Routes>
+        <Footer/>
       </Router>
     </>
   )

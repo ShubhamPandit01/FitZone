@@ -1,7 +1,5 @@
 
 import {cardio} from '../Data.js'
-import Navbar from '../component/Navbar.jsx'
-import Footer from '../component/Footer.jsx'
 
 
 
@@ -9,7 +7,6 @@ const Cardio = () => {
 
     return (
         <>  
-        <Navbar/>
         <div className='cardio_container'>
             <h1>Cardio</h1>
             {   
