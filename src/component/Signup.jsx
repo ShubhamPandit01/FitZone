@@ -65,12 +65,13 @@ const Signup = (props) => {
                 <input type="password" placeholder="Confirm Password" name="confirmPassword" required ref={input.confirmPassword}/>
                 <button type="submit">Submit</button>
 
-                <p>
-                    Already have an account?   
+                <div className="login_link">
+                    <p>Already have an account?</p>   
                     <Link to="/user" onClick={() => props.setUserDisplay(false)}>
-                        <h3 className="login-link">Login</h3>
+                        <h3>Login</h3>
                     </Link>
-                </p>    
+                </div>
+                    
             </form>
         </div>
     </>

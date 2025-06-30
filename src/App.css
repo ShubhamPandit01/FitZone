@@ -824,9 +824,6 @@ p{
   flex-direction: column;
   gap: 20px;
 
-  p{
-    text-align: center;
-  }
 }
 
 .user_form h1 {
@@ -866,11 +863,14 @@ p{
 }
 
 
-.login-link{
-  color: rgb(240, 209, 75);
-
-  :hover{
-    color:#ddb917;
+.login_link{
+  
+  text-align: center;
+  h3{
+    color: rgb(240, 209, 75);
+    :hover{
+      color:#ddb917;
+    }
   }
 }
 

@@ -14,6 +14,7 @@ const Hamburger = (props)=>{
                     <Link to='/fitness' onClick={()=>props.setHamburger(flase)}>Fitness</Link>
                     <Link to='/contact' onClick={()=>props.setHamburger(flase)}>Contact</Link>
                     <Link to='/about' onClick={()=>props.setHamburger(flase)}>About</Link>
+                    <Link to='/user' onClick={()=>props.setHamburger(flase)}>Profile</Link>
                 </div>
             </div> 
         </>
