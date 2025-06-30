@@ -2,6 +2,8 @@ import { useState } from "react"
 import { Link } from 'react-router-dom';
 import { RxHamburgerMenu } from "react-icons/rx";
 import Hamburger from "./Hamburger";
+import { FaUserAlt } from "react-icons/fa";
+
 
 const Navbar = ()=>{
 
@@ -24,6 +26,8 @@ const Navbar = ()=>{
                         <h3 onClick={()=>setItemActive('fitness')} ><Link className={itemActive==="fitness"? 'active':''} to='/fitness'>Fitness</Link></h3>
                         <h3 className={itemActive==="contact"? 'active':''} onClick={()=>setItemActive('contact')} ><Link to='/contact'>Contact</Link></h3>
                         <h3 className={itemActive==="about"? 'active':''} onClick={()=>setItemActive('about')}> <Link to='/about'>About</Link></h3>
+                        <h3 className={itemActive==="user"? 'active':''} onClick={()=>setItemActive('user')}> <Link to='/user'><FaUserAlt /></Link></h3>
+
                     </div>
                 </div>
             </nav>

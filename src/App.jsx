@@ -18,6 +18,10 @@ import FitnessPage from './pages/FitnessPage';
 import ContactPage from './pages/ContactPage';
 import Navbar from './component/Navbar';
 import Footer from './component/Footer';
+import UserPage from './pages/UserPage';
+
+
+
 
 function App() {
   
@@ -38,6 +42,7 @@ function App() {
             <Route path="/buyprotine" element={<BuyProtine/>}/>
             <Route path="/about" element={<About/>}/>
             <Route path="/contact" element={<ContactPage/>}/>
+            <Route path="/user" element={<UserPage/>}/>
           </Routes>
         <Footer/>
       </Router>
